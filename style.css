@@ -36,6 +36,7 @@ h5 {
     /*font-family:*/
     font-size: 7em;
     color: #162940;
+    text-shadow: 4px 4px 5px white;
     font-weight: bold;
 }
 
