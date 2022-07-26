@@ -21,9 +21,11 @@ h1 {
 }
 
 h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 4rem;
     font-weight: bold;
     text-align: center;
+    padding: 50px;
 }
 
 h3 {
@@ -33,7 +35,7 @@ h3 {
 }
 
 h5 {
-    /*font-family:*/
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 5rem;
     color: #162940;
     text-shadow: 4px 4px 5px white;
@@ -58,7 +60,7 @@ p {
 /*css quienes somos*/
 #info .container {
     text-align: center;
-    padding: 200px 12px;
+    padding: 80px 12px;
 }
 
 /*css buloneria/neumatica*/
@@ -86,6 +88,7 @@ p {
 #neumatica .cartan {
     background-position: center center;
     background-size: cover;
+    width: auto;
     padding: 50px;
     margin: 20px;
     border-radius: 10px;
@@ -160,7 +163,7 @@ p {
 
 /*css nav*/
 .logo {
-    height: 100px;
+    height: 80px;
 
 }
 
@@ -201,7 +204,7 @@ footer div h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.7rem;
     color: white;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: center;
 }
@@ -225,7 +228,7 @@ form {
     background-color: #e6eef3;
     border-radius: 5px;
     padding: 30px;
-    width: 500px;
+    width: auto;
 }
 
 .datos {
@@ -276,10 +279,10 @@ form {
 }
 
 #wap img {
-    width: 10em;
+    width: 100px;
     position: fixed;
-    bottom: 3em;
-    right: 1em;
+    bottom: 40px;
+    right: 5px;
 }
 
 /*cierre formulario*/
@@ -287,6 +290,7 @@ form {
 @media (min-width:1000px) {
     #info .container {
         display: flex;
+        align-items: center;
         justify-content: space-evenly;
     }
 
@@ -304,8 +308,8 @@ form {
         background-image: url("/assets/somos.jpg");
         background-size: cover;
         background-position: center center;
-        height: 500px;
-        width: 400px;
+        height: 700px;
+        width: 600px;
     }
 
     #buloneria .bulones,
