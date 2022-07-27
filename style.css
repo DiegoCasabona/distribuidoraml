@@ -98,31 +98,31 @@ p {
 .carta:first-child {
     background-image: linear-gradient(0deg,
             rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("/assets/bulones.jpg");
+            rgb(0, 0, 0, 0.5)), url("./assets/bulones.jpg");
 }
 
 .carta:nth-child(2) {
     background-image: linear-gradient(0deg,
             rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("/assets/tornillos.jpg");
+            rgb(0, 0, 0, 0.5)), url("./assets/tornillos.jpg");
 }
 
 .carta:nth-child(3) {
     background-image: linear-gradient(0deg,
             rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("/assets/tuercas.jpg");
+            rgb(0, 0, 0, 0.5)), url("./assets/tuercas.jpg");
 }
 
 .carta:nth-child(4) {
     background-image: linear-gradient(0deg,
             rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("/assets/arandela.jpg");
+            rgb(0, 0, 0, 0.5)), url("./assets/arandela.jpg");
 }
 
 .carta:nth-child(5) {
     background-image: linear-gradient(0deg,
             rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("/assets/otros.jpg");
+            rgb(0, 0, 0, 0.5)), url("./assets/otros.jpg");
 }
 
 /*css neumatica*/
@@ -134,31 +134,31 @@ p {
 .cartan:first-child {
     background-image: linear-gradient(0deg,
             rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("/assets/actuador.jpg");
+            rgb(0, 0, 0, 0.5)), url("./assets/actuador.jpg");
 }
 
 .cartan:nth-child(2) {
     background-image: linear-gradient(0deg,
             rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("/assets/valvula.jpg");
+            rgb(0, 0, 0, 0.5)), url("./assets/valvula.jpg");
 }
 
 .cartan:nth-child(3) {
     background-image: linear-gradient(0deg,
             rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("/assets/sensor.jpg");
+            rgb(0, 0, 0, 0.5)), url("./assets/sensor.jpg");
 }
 
 .cartan:nth-child(4) {
     background-image: linear-gradient(0deg,
             rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("/assets/pinza.jpg");
+            rgb(0, 0, 0, 0.5)), url("./assets/pinza.jpg");
 }
 
 .cartan:nth-child(5) {
     background-image: linear-gradient(0deg,
             rgb(0, 0, 0, 0.5),
-            rgb(0, 0, 0, 0.5)), url("/assets/vision.jpg");
+            rgb(0, 0, 0, 0.5)), url("./assets/vision.jpg");
 }
 
 /*css nav*/
@@ -305,7 +305,7 @@ form {
     }
 
     #info .img-info {
-        background-image: url("/assets/somos.jpg");
+        background-image: url("./assets/somos.jpg");
         background-size: cover;
         background-position: center center;
         height: 700px;
