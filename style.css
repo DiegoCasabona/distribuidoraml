@@ -325,4 +325,7 @@ form {
         color: white;
     }
 
+    .carousel-item {
+        height: 80vh;
+    }
 }
